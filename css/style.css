@@ -1,0 +1,271 @@
+*{margin:0; padding:0;}
+input,img{ border:0; vertical-align: top;outline:0;}
+ul{ list-style-type:none;}
+a{ text-decoration:none; color:#666;;}/*a标签样式*/
+a:hover{ color:#C60C1B;}/*a标签鼠标经过样式*/
+body{ font-size:12px; font-family:微软雅黑;  color:#666;} 
+.clear{ clear:both;}  /*清除浮动*/
+.center{width:1190px;margin:0 auto;position:relative;}
+.red{color:#F10215;}
+/*京东顶部*/
+.header{width:100%;height:30px;background:#E3E4E5;border-bottom:1px solid #DDDDDD;line-height:30px;}
+.header .left{float:left;background:url(../images/icon-1.png) no-repeat left center;padding-left:16px;margin-left:210px;}
+.header ul{float:right;overflow:hidden;}
+.header ul li{float:left;margin-right:12px;}
+.header ul .line{height:10px;width:1px;background:#ccc;margin-top:11px;}
+.header ul .arrow{background:url(../images/icon4.png) no-repeat right center;padding-right:16px;}
+.header li div{width:66px;height:66px;border:1px solid #ccc;position:absolute;}
+.header li img{width:60px;padding:3px;}
+/*京东导航*/
+.nav{width:100%;}
+.nav .logo{position:absolute;left:0;top:-30px;background:#fff;width:190px;height:170px;box-shadow:10px 0 10px #ccc;}
+.nav .search{width:770px;margin-left:320px;padding-top:24px;overflow:hidden;}
+.nav h2{height:33px;width:500px;position:relative;border:1px solid #F10215;float:left;}
+.nav h2 .txt{height:33px;width:410px;padding-left:4px;float:left;}
+.nav h2 .file{float:left;width:19px;height:15px;margin-top:9px;background:#fff url(../images/sprite-photo-search.png);}
+.nav h2 .file input{width:19px;height:15px;opacity:0;}
+.nav h2 .btn{float:right;width:50px;height:33px;background:#F10215 url(../images/icon-2.png) no-repeat center;}
+.nav h3{width:188px;height:33px;border:1px solid #e3e4e5;float:right;text-align:center;position:relative;line-height:33px;font-weight:normal;background:url(../images/car.png) no-repeat 40px 9px;}
+.nav h3 span{width:14px;height:14px;background:#F10215;border-radius:50%;line-height:14px;color:#fff;text-align:center;position:absolute;top:5px;}
+.nav p{margin-left:320px;padding-top:10px;height:42px;}
+.nav p a{margin-right:12px;}
+.nav ul{height:28px;overflow:hidden;margin-left:200px;}
+.nav ul li{font-size:16px;font-weight:bold;float:left;margin-left:30px;}
+.nav ul .line{height:12px;width:1px;background:#ccc;margin-top:6px;margin-left:20px;margin-right:-10px;}
+.nav h4{position:absolute;top:90px;right:0;width:190px;height:40px;}
+/*京东banner*/
+.banner{width:100%;overflow:hidden;height:480px;}
+.banner .left{width:190px;height:458px;float:left;background:#6E6568;margin-right:10px;padding-top:22px;}
+.banner .left li{height:28px;padding-left:12px;color:#fff;}
+.banner .left li a{color:#fff;}
+.banner .left a:hover{color:#C60C1B;}
+.banner .mid{float:left;width:790px;}
+.banner .mid .top{height:340px;}
+.banner .mid .bot{margin-top:10px;height:130px;float:left;}
+.banner .mid .bot a:first-child{margin-right:5px;}
+.banner .right{width:190px;height:480px;float:left;margin-left:10px;}
+.banner .right .box1{height:114px;padding-top:14px;border-bottom:1px solid #ccc;padding-left:14px;overflow:hidden;}
+.banner .right .box1 .logo2{width:50px;height:50px;float:left;border:2px solid #C9A65B;border-radius:50%;}
+.banner .right .box1 .logo2 img{width:40px;height:40px;border-radius:50%;padding:5px;}
+.banner .right .box1 .login{float:left;height:50px;padding-left:6px;}
+.banner .login p{height:22px;}
+.banner h2{padding-top:20px;font-size:12px;font-weight:normal;}
+.banner h2 a{color:#E01222;display:block;width:70px;height:20px;border:2px solid #E01222;float:left;text-align:center;line-height:20px;margin-right:10px;}
+.banner .right .box2 .title{width:162px;height:27px;margin:0 auto;line-height:27px;border-bottom:1px solid #ccc;}
+.banner .right .box2 .title li{float:left;line-height:26px;margin-right:12px;}
+.banner .right .box2 .title li:last-child{float:right;}
+.banner .right .box2 .title .line{border-bottom:2px solid red;height:26px;display:block;}
+.banner .right .box2 .txt{height:110px;padding-top:16px;padding-left:14px;}
+.banner .right .box2 .txt li{height:26px;}
+.banner .right .pic{overflow:hidden;}
+.banner .right .pic li{width:47px;height:68px;border-top:1px solid #ccc;border-right:1px solid #ccc;float:left;text-align:center;position:relative;}
+.banner .right .pic li:nth-child(4n){border-right:0;width:46px;}
+.banner .right .pic a{display:block;}
+.banner .right .pic a .icon{width:24px;height:24px;display:block;margin:13px auto 5px;background:url(../images/sprite_fs@1x.png)0 -87px;}
+.banner .right .pic li:nth-child(2) .icon{background-position:0 -43px;}
+.banner .right .pic li:nth-child(3) .icon{background-position:-44px -87px;}
+.banner .right .pic li:nth-child(4) .icon{background-position:-88px 0px;}
+.banner .right .pic li:nth-child(5) .icon{background-position:-88px -43px;}
+.banner .right .pic li:nth-child(6) .icon{background-position:0 0;}
+.banner .right .pic li:nth-child(7) .icon{background-position:-44px -44px;}
+.banner .right .pic li:nth-child(8) .icon{background-position:-88px -87px;}
+.banner .right .pic li:nth-child(9) .icon{background-position:-131px 0;}
+.banner .right .pic li:nth-child(10) .icon{background-position:-131px -44px;}
+.banner .right .pic li:nth-child(11) .icon{background-position:-131px -87px;}
+.banner .right .pic li:nth-child(12) .icon{background-position:-43px 0;}
+.banner .right .pic li .tu{position:absolute;right:0;top:0;}
+/*京东第一块*/
+.seck{height:304px;overflow:hidden;}
+.seck .num{margin-top:12px;height:55px;color:#fff;overflow:hidden;background:url(../images/seckill_hd.png);position:relative;}
+.seck h3{;font-size:22px;font-weight:normal;line-height:55px;position:relative;font-family:宋体;float:left}
+.seck h3 i{background:url(../images/sprite_index@1x.png)0 -36px;margin:5px 12px 0 30px;width:34px;height:40px;display:block;float:left}
+.seck h3 span{font-size:12px;padding:0 6px 0 14px;}
+.seck h3 u{text-decoration:none;width:16px;height:18px;border:1px solid #fff;display:block;position:absolute;left:290px;top:20px;line-height:18px;border-radius:50%;}
+.seck h4{height:55px;float:right;font-weight:normal;font-size:12px;margin-right:20px;}
+.seck h4 span{width:35px;height:37px;background:#440106;display:inline-block;text-align:center;line-height:37px;margin:0 4px;font-size:20px;color:#F90013;border-radius:5px;}
+.seck h4 i{font-size:35px;color:#440106;width:18px;font-style:normal;}
+.seck h3 i{background:url(../images/sprite_index@1x.png)0 -36px;margin:5px 12px 0 30px;width:34px;height:40px;display:block;float:left}
+.seck .num s{width:26px;height:26px;background:url(../images/sprite_index@1x.png)-191px -48px;display:block;position:absolute;left:-2px;top:-2px;}
+.seck ul{height:250px;background:#fff;overflow:hidden;}
+.seck ul li{height:224px;width:178px;margin:12px 10px 0;border-right:1px solid #ccc;overflow:hidden;float:left;position:relative;}
+.seck ul li:nth-child(6){width:174px;border-right:0;background:#E7E7E7;}
+.seck ul li:nth-child(6) h6{width:137px;height:33px;border-top:1px solid #E07C26;border-bottom:1px solid #E07C26;color:#E07C26;font-size:20px;line-height:33px;text-align:center;margin:0 auto;}
+.seck ul li:nth-child(6) p{text-align:center;color:#E07C26;padding-top:4px;}
+.seck li div{width:130px;height:130px;margin:14px auto;}
+.seck li p{width:166px;height:40px;margin:0 auto;}
+.seck li h5{font-size: 16px;width:166px;margin:0 auto;color:#F10214}
+.seck li h5 span{font-size:12px;padding-right:2px;}
+.seck li h5 span:nth-child(2){color:#999;padding-left:10px;}
+.seck li h5 s{font-size:12px;color:#999;font-weight:normal;}
+.seck li i{position:absolute;top:0;left:10px;}
+/*京东第二块*/
+.nice{overflow:hidden;padding-top:28px;}
+.nice .box{width:390px;height:445px;background:#fff;float:left;margin-right:10px;}
+.nice .box:last-child{margin-right:0;}
+.nice .num{height:55px;width:390px;background:linear-gradient(90deg,#4998A1,#2F828B);overflow:hidden;}
+.nice .num h3{font-size:24px;color:#fff;font-weight:normal;line-height:55px;padding-left:32px;float:left;}
+.nice .num a{font-size:12px;color:#fff;float:right;margin-right:40px;padding-top:30px;}
+.nice .num .horn{width:0;height:0;border-top:20px solid #F6F6F6;border-right:20px solid transparent;position:absolute;}
+.nice .num .horn i{width:0;height:0;border-top:15px solid #4998A1;border-right:15px solid transparent;position:relative;top:-2px;left:2px;}
+.nice .num a u{float:right;display:block;width:16px;height:18px;background:url(../images/sprite_index@1x.png)no-repeat -153px -39px;margin-left:4px;}
+.nice .box .shop{margin:10px;height:362px;overflow:hidden;}
+.nice .box .shop li{border-right:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7;width:184px;height:120px;float:left;position:relative; }
+.nice .box .shop li:nth-child(even){border-right:0;}
+.nice .box .shop li p{position:absolute;top:20px;left:18px;width:70px;color:#4998A1;}
+.nice .box .shop li img{position:absolute;bottom:20px;right:18px;transition:all 1s;}
+.nice .box .shop li a:hover img{right:25px;}
+.nice .box .shop li a:hover p{color:#EA3524;}
+
+.nice .num1{background:linear-gradient(90deg,#75478D,#662E73);}
+.nice .num1 .horn i{border-top-color:#75478D;}
+.nice .box dl{width:330px;height:156px;margin:26px auto 0;border-bottom:1px solid #ccc;}
+.nice .box dl:nth-child(3){border-bottom:0;}
+.nice .box dl dt{height:28px;}
+.nice .box dl dd{width:330px;height:108px;overflow:hidden;}
+.nice .box h5{width:60px;margin:0 auto;}
+.nice .box h5 span{display:block;width:8px;height:8px;border-radius:50%;background:#C8C8C8;float:left;margin-left:10px;}
+.nice .box h5 span:first-child{background:red;}
+
+.nice .num2{background:linear-gradient(90deg,#E76F05,#E45E04);}
+.nice .num2 .horn i{border-top-color:#E76F05;}
+.nice .box .title{height:31px;width:370px;border-bottom:1px solid #ccc;margin:0 auto;line-height:31px;overflow:}
+.nice .box .title li{float:left;height:30px;}
+.nice .box .title li:first-child{border-bottom:1px solid #F10214;}
+.nice .box .title .line{height:16px;width:1px;background:#ccc;margin:8px 11px;}
+.nice .box .mi{height:334px;padding:8px 10px 0;overflow:hidden;}
+.nice .box .mi li{width:100px;height:167px;padding:0 11px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;float:left;}
+.nice .box .mi li:nth-child(3n){border-right:0;}
+.nice .box .mi li div{width:100px;height:100px;margin:10px 0;overflow:hidden;}
+
+/*京东第三块*/
+.card{height:215px;margin-top:28px;overflow:hidden;}
+.card ul{height:215px;background:#fff;overflow:hidden;}
+.card ul li{width:169px;height:195px;margin:10px 0;padding:0 15px;border-right:1px solid #ccc;float:left;position:relative;}
+.card ul li:first-child{background:#F10214;width:175px;border-right:0;color:#fff;padding-left:15px;padding-right:0;}
+.card ul li:nth-child(6){border-right:0;}
+.card li h1{font-size:26px;height:46px;font-weight:normal;padding-top:22px;margin-bottom:20px;}
+.card li h1 span{border-bottom:3px solid #fff;display:inline-block;height:43px;}
+.card li p{height:20px;}
+.card li a{display:block;width:120px;height:26px;border:1px solid #fff;padding-left:16px;line-height:26px;color:#fff;margin-top:17px;}
+.card li a u{float:right;display:block;width:16px;height:18px;background:url(../images/sprite_index@1x.png)no-repeat -153px -39px;margin-right:20px;margin-top:5px;}
+.card li .box{height:180px;width:100px;padding-top:16px;float:left;z-index:99;position:relative;background:#fff;}
+.card li .box h2{height:34px;padding-top:8px;border-top:3px solid #F10214;font-size:26px;color:#F10214;}
+.card li .box h2 span{font-size:12px;font-weight:normal;}
+.card li .box p{color:#F10214;line-height:18px;width:84px;height:36px;}
+.card li .box div{height:48px;padding:18px 10px 0;background:#E7E7E7 url(../images/card.png)repeat-x;}
+.card li .box a{display:block;height:26px;background:#F10214;color:#fff;width:100px;margin-top:0;padding-left:0;text-align:center;}
+.card li .tu{width:140px;height:140px;position:absolute;right:10px;top:20px;transition:all .5s;}
+.card li:hover .tu{right:0;}
+
+/*京东banner2*/
+.banner2{width:100%;height:100px;background:#E0E0E0;margin-top:30px;overflow:hidden;margin-bottom:14px;}
+.banner2 span{width:396px;height:100px;float:left;}
+.banner3{margin-top:20px;}
+.banner4{margin-top:0;}
+/*京东第四块*/
+.trait{width:100%;overflow:hidden;}
+.trait h4,.love{height:71px;line-height:71px;text-align:center;font-size:22px;font-weight:normal;background:url(../images/dot.png)repeat-x center;}
+.trait h4 span,.love span{width:196px;background:#F6F6F6;display:inline-block;}
+.trait .left{overflow:hidden;width:795px;float:left;}
+.trait .left li{width:385px;height:170px;float:left;position:relative;margin:0 10px 10px 0;overflow:hidden;}
+.trait .left li .txt{width:120px;height:125px;background:#72BB91;color:#fff;padding-left:15px;padding-top:45px;z-index:99;position:relative;}
+.trait .left .txt h5{font-size:20px;height:40px;line-height:40px;border-bottom:2px solid #fff;border-top:2px solid #fff;width:100px;text-align:center;margin-bottom:8px;}
+.trait .left .txt p{width:100px;line-height:16px;}
+.trait .left .txt p a{color:#fff;}
+.trait .left .pic{position:absolute;left:-5px;top:0;transition:all .5s;}
+.trait .left li:hover .pic{left:-10px;}
+.trait .left li:nth-child(2) .txt{background:#DCD178;}
+.trait .left li:nth-child(3) .txt{background:#5C5566;}
+.trait .left li:nth-child(4) .txt{background:#498B94;}
+.trait .left li:nth-child(5) .txt{background:#D78F27;}
+.trait .left li:nth-child(6) .txt{background:#876350;}
+.trait .right{float:right;width:390px;overflow:hidden;}
+.trait .right div{width:390px;height:350px;overflow:hidden;margin-bottom:10px;}
+.trait .right .bot{width:390px;height:170px;overflow:hidden;}
+.trait .right .bot li{float:left;width:190px;height:170px;margin-right:10px;position:relative;}
+.trait .right .bot li:nth-child(2){margin-right:0;}
+.trait .right .bot li:nth-child(2) .back{background:#6D356E;}
+.trait .right .bot li div{width:190px;height:170px;overflow:hidden;}
+.trait .right .bot li .back{height:80px;width:190px;background:#AF4942;color:#fff;text-align:center;position:absolute;bottom:-10px;left:0;}
+.trait .right .bot li .back h5{height:30px;border-top:2px solid #fff;border-bottom:2px solid #fff;width:100px;margin:10px auto;font-size:14px;line-height:30px;text-align:center;}
+
+/*京东第五块*/
+.live{width:100%;overflow:hidden;}
+.live .box{width:590px;height:515px;float:left;overflow:hidden;background:#fff;margin-right:10px;margin-bottom:30px;}
+.live .center .box:nth-child(even){margin-right:0; float:right;}
+.live .top{height:58px;background:linear-gradient(90deg,#974676,#9E4075);width:590px;overflow:hidden;}
+.live .box:nth-child(3) .top{background:linear-gradient(90deg,#CD375E,#C2324E);}
+.live .box:nth-child(4) .top{background:linear-gradient(90deg,#77528D,#684184);}
+.live .box:nth-child(5) .top{background:linear-gradient(90deg,#5E6C90,#4D5F8C);}
+.live .top h6,.small .top h6{font-size:20px;color:#fff;font-weight:normal;line-height:58px;padding-left:26px;float:left;}
+.live .top h6 u,.small .top h6 u{display:inline-block;width:20px;height:20px;background:url(../images/weixin.png);position:relative;left:16px;top:4px;}
+.live .top p,.small .top p{float:right;margin-right:10px;}
+.live .top p a,.small .top p a{display:inline-block;color:#fff;padding:6px 10px 7px;border:1px solid rgba(255,255,255,.5);margin-right:10px;margin-top:16px;}
+.live .box .mid,.small .box .mid{margin-top:10px;height:260px;}
+.live .box .mid .left,.small .mid .left{width:180px;height:260px;overflow:hidden;margin-right:10px;float:left;margin-left:10px;}
+.live .box .mid .left img,.small .mid .left img{width:180px;height:260px;}
+.live .box .mid .right,.small .mid .right{float:left;overflow:hidden;width:390px;height:260px;}
+.live .box .mid .right li{width:186px;height:130px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;float:left;position:relative;}
+.live .box .mid .right li:nth-child(even){border-right:0;}
+.live .box .mid li .text,.small .box .right li .text{margin-top:28px;margin-left:26px;z-index:99;position:relative;}
+.live .box .mid li h3,.small .box .right li h3{font-size:14px;color:#9A4476;font-weight:normal;}
+.live .box .mid li p,.small .box .right li p{width:48px;line-height:20px;}
+.live .box .mid li img,.small .box .right img{position:absolute;bottom:20px;right:5px;transition:all 1s;}
+.live .box .mid li:hover img,.small .box .right li:hover img{right:12px;}
+.live .box .down,.small .box .down{padding-top:10px;}
+.live .box .down p img,.small .box .down p img{width:183px;height:130px;margin-left:10px;}
+.live .box .down .logov,.small .box .down .logov{margin-top:12px;padding:0 14px;}
+.live .box .down .logov li,.small .box .down .logov li{float:left;}
+.live .box .down .logov .line,.small .box .down .logov .line{background:#ccc;width:1px;height:20px;margin:8px 12px 0;}
+.sex .top{width:1190px;height:55px;background:linear-gradient(90deg,#488BAC,#337E8E);}
+.sex .box{height:465px;}
+.small{overflow:hidden;width:100%;}
+.small .box{width:390px;height:515px;float:left;overflow:hidden;background:#fff;margin-right:10px;margin-bottom:0;}
+.small .box:nth-child(3){margin-right:0;}
+.small .box .top{width:390px;overflow:hidden;height:58px;background:linear-gradient(90deg,#63669F,#544C8F);}
+.small .box .mid .left{float:left;margin-right:0;}
+.small .box .mid .right{width:187px;float:right}
+.small .box .right li{width:177px;height:102px;border-bottom:1px solid #ccc;position:relative;}
+.small .box .down .logov{margin-top:5px;}
+/*京东第十一块*/
+.tes{overflow:hidden;width:100%;}
+.tes ul li{float:left;width:140px;height:170px;margin-right:10px;position:relative;}
+.tes ul li:nth-child(8){margin-right:0;}
+.tes li div{width:140px;height:170px;overflow:hidden;}
+.tes li .back{height:80px;width:140px;background:#997764;color:#fff;text-align:center;position:absolute;bottom:-10px;left:0;}
+.tes li .back h5{height:30px;font-size:18px;padding-top:11px;font-weight:normal}
+/*京东第十二块*/
+.super{overflow:hidden;width:100%;}
+.super ul{overflow:hidden;}
+.super ul li{width:230px;height:316px;background:#fff;float:left;margin:0 10px 10px 0;}
+.super ul .no{margin-right:0;}
+.super li div{width:220px;height:220px;margin:5px 5px 0;overflow:hidden;}
+.super li h5{font-weight:normal;padding:10px 15px 0;line-height:18px;font-size:12px;}
+.super li p{color:#F10214;padding:7px 0 0 15px;}
+/*京东  底部*/
+.copy{width:100%;height:500px;background:#EAEAEA;margin-top:30px;}
+.copy h2{height:102px;border-bottom:1px solid #DEDEDE;line-height:102px;text-align:center; }
+.copy h2 img{margin:28px 10px 0 0;}
+.copy h2 span{margin-right:90px;}
+.copy .top{height:174px;border-bottom:1px solid #DEDEDE;overflow:hidden;padding-top:25px;}
+.copy .top li{width:196px;float:left;}
+.copy .top li h6{text-align:center;font-size:12px;height:30px;}
+.copy .top li p{width:180px;margin:0 auto;line-height:18px;}
+.copy .top li p a{float:right;}
+.copy .top li dl dt{font-weight: bold;height:26px;}
+.copy .top li dl dd{height:22px;}
+.copy .bottom{height:48px;line-height:48px;text-align:center;}
+.copy .bottom li{display:inline-block;}
+.copy .bottom .line{width:1px;height:14px;background:#D1CCD1;margin:17px 5px 0;}
+.copy .file{height:24px;text-align:center;color:#999999;}
+.copy .file span{padding:0 11px;}
+.copy .over{text-align:center;margin-top:8px;}
+.copy .over li{width:103px;height:32px;display:inline-block;background:#EEEEEE;margin-right:6px;}
+.copy .over li p{width:65px;float:right;text-align:left;}
+
+/*固定定位*/
+body{border-right:5px solid #7A6E6E;position:relative;}
+.fixed{position:fixed;right:2px;top:240px;}
+.fixed li{margin-top:2px;}
+.back{position:fixed;right:2px;bottom:10px;}
+.back li{margin-top:2px;}
